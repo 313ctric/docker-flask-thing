@@ -1,5 +1,5 @@
 # install some things
-FROM python3.9
+FROM python:3.9
 RUN pip install pipenv
 
 # copy over files
